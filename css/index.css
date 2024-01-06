@@ -1,0 +1,191 @@
+body {
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+
+    background-image: url('../images/banner/banner3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* .header-content{
+    float: right;
+    padding: 216px 230px 186px 845px ;
+} */
+.header-content {
+    text-align: right;
+    padding: 216px 230px 186px 845px;
+    color: #fff;
+}
+
+.header-content h1 {
+    font-size: 65px;
+    font-weight: 700;
+
+}
+
+.header-content p {
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.btn-white {
+    font-weight: 600;
+    color: #005FAC;
+    font-size: 20px;
+    padding: 20px 25px;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-blue {
+    font-weight: 600;
+    color: #FFF;
+    font-size: 20px;
+    padding: 20px 25px;
+    border: none;
+    background-color: #005FAC;
+    border-radius: 5px;
+}
+
+.wrap {
+    margin-right: 230px;
+    margin-left: 230px;
+    margin-top: 130px;
+    margin-bottom: 0px;
+}
+
+.failure {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.right-box h3 {
+    font-size: 40px;
+    font-weight: 700;
+
+
+}
+
+.right-box p {
+    color: var(--Dark-02, #444343);
+    font-size: 16px;
+    font-weight: 400;
+    width: 416px;
+
+}
+
+.right-box {
+    margin-top: 200px;
+}
+
+.right-box ul li {
+    list-style: none;
+}
+
+.right-box ul li::before {
+    content: '✔️';
+}
+
+/* my plans  */
+
+.plans {
+    display: flex;
+    justify-content: space-between;
+}
+
+.plan h3 {
+    font-size: 30px;
+    font-weight: 700;
+
+}
+
+.plan p {
+    font-size: 25px;
+    font-weight: 500;
+    color: var(--Dark-03, #737272);
+
+}
+
+.my-plans h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+
+
+}
+
+.postive {
+
+    background-image: url('../images/watch.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.postive div {
+    padding: 10px 600px 50px 50px;
+    background-image: url('../images/gradient1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.postive div h3 {
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+
+}
+
+footer {
+    background-color: #151414;
+    color: #fff;
+}
+
+.footer-content {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.footer-box h3 {
+    font-size: 45px;
+    font-weight: 700;
+
+}
+
+.footer-box h4 {
+    font-size: 25px;
+    font-weight: 600;
+
+
+}
+
+.footer-box p {
+    font-size: 16px;
+    font-weight: 400;
+    max-width: 485px;
+}
+
+.footer-box input {
+    display: block;
+    background-color: transparent;
+    border-radius: 8px;
+    padding: 21px;
+    width: 325px;
+    color: var(--Dark-07, #F3F3F3);
+    
+    border: 1px solid #FFF;
+    margin-bottom: 20px;
+}
+footer{
+    padding:1px 0px 130px 0px;
+    margin-top: 130px;
+}
+.icons img{
+    margin-right: 20px;
+}
